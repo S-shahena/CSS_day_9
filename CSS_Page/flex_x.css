@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#main_container{
+    background-color: brown;
+    width: 600px;
+    height:600px;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* gap:  50px 100px; */
+    justify-content: space-around;
+    align-content: space-evenly;
+    /* align-items: start; */
+    /* flex-direction: row-reverse; */
+    
+    
+}
+
+.child_div {
+    width: 100px;
+    height: 50px;
+    margin: 1px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    flex-grow: 1;
+  
+}
+
+
+.div1{
+    background-color: blue;
+    order: 6;
+    /* flex-grow: 9; */
+    
+    
+    
+}
+
+.div2{
+    background-color: rgb(182, 117, 20);
+    order: 9;
+    /* flex-grow: 5; */
+}
+
+.div3{
+    background-color:green;
+    order: 2;
+    /* flex-grow: 3; */
+    /* flex: 3; */
+    /* align-self:center */
+
+ 
+   
+}
+.div4{
+    background-color:slateblue;
+    order: 5;
+    /* flex-wrap: 6; */
+}
+.div5{
+    background-color:rgb(14, 66, 126);
+    order: 1;
+    /* flex-grow: 2; */
+    /* flex: 500; */
+}
+.div6{
+    background-color:darkmagenta;
+    order: 3;
+    /* flex-grow: 4; */
+}
+.div7{
+    background-color:indigo;
+    order: 4;
+    /* flex-grow: 7; */
+}
+.div8{
+    background-color:rgb(45, 182, 236);
+    order: 8;
+    /* flex-wrap: 2; */
+    
+}
+.div9{
+    background-color: blueviolet;
+    order: 7;
+    /* flex-shrink: 0; */
+    /* width: 300px; */
+    
+}
